@@ -1,0 +1,15 @@
+$date
+	Tue May 26 21:36:04 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module control_unit_tb $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+$end

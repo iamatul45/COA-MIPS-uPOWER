@@ -1,0 +1,146 @@
+$date
+	Tue Jun  2 15:13:17 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module ins_parsetb $end
+$var wire 9 ! xoxo [8:0] $end
+$var wire 10 " xox [9:0] $end
+$var wire 2 # xods [1:0] $end
+$var wire 16 $ si [15:0] $end
+$var wire 5 % rt [4:0] $end
+$var wire 5 & rs [4:0] $end
+$var wire 5 ' rd [4:0] $end
+$var wire 1 ( rc $end
+$var wire 6 ) opcode [5:0] $end
+$var wire 1 * oe $end
+$var wire 1 + lk $end
+$var wire 24 , li [23:0] $end
+$var wire 14 - ds [13:0] $end
+$var wire 5 . bo [4:0] $end
+$var wire 5 / bi [4:0] $end
+$var wire 14 0 bd [13:0] $end
+$var wire 1 1 aa $end
+$var reg 32 2 instruction [31:0] $end
+$var reg 32 3 p_count [31:0] $end
+$scope module instructionParser $end
+$var wire 32 4 instruction [31:0] $end
+$var wire 32 5 p_count [31:0] $end
+$var wire 6 6 opcode [5:0] $end
+$var reg 1 1 aa $end
+$var reg 14 7 bd [13:0] $end
+$var reg 5 8 bi [4:0] $end
+$var reg 5 9 bo [4:0] $end
+$var reg 14 : ds [13:0] $end
+$var reg 24 ; li [23:0] $end
+$var reg 1 + lk $end
+$var reg 1 * oe $end
+$var reg 1 ( rc $end
+$var reg 5 < rd [4:0] $end
+$var reg 5 = rs [4:0] $end
+$var reg 5 > rt [4:0] $end
+$var reg 16 ? si [15:0] $end
+$var reg 2 @ xods [1:0] $end
+$var reg 10 A xox [9:0] $end
+$var reg 9 B xoxo [8:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b100001010 B
+bx A
+bx @
+bx ?
+b10 >
+b11 =
+b1 <
+bx ;
+bx :
+bx 9
+bx 8
+bx 7
+b11111 6
+bx 5
+b1111100001000100001101000010100 4
+bx 3
+b1111100001000100001101000010100 2
+x1
+bx 0
+bx /
+bx .
+bx -
+bx ,
+x+
+0*
+b11111 )
+0(
+b1 '
+b11 &
+b10 %
+bx $
+bx #
+bx "
+b100001010 !
+$end
+#10
+b11100 "
+b11100 A
+b101 &
+b101 =
+b11 %
+b11 >
+b100 '
+b100 <
+b1111100100000110010100000111000 2
+b1111100100000110010100000111000 4
+#20
+b1000 $
+b1000 ?
+b10 %
+b10 >
+b110 '
+b110 <
+b11010 )
+b11010 6
+b1101000110000100000000000001000 2
+b1101000110000100000000000001000 4
+#30
+0+
+01
+b111110100101 0
+b111110100101 7
+b101 /
+b101 8
+b0 .
+b0 9
+b10011 )
+b10011 6
+b1001100000001010011111010010100 2
+b1001100000001010011111010010100 4
+#40
+11
+b100100011 ,
+b100100011 ;
+b10010 )
+b10010 6
+b1001000000000000000010010001110 2
+b1001000000000000000010010001110 4
+#50
+b0 #
+b0 @
+b101 -
+b101 :
+b100 %
+b100 >
+b10 '
+b10 <
+b111010 )
+b111010 6
+b11101000010001000000000000010100 2
+b11101000010001000000000000010100 4
+#60
